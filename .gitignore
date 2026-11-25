@@ -1,0 +1,36 @@
+# Build and compiled artifacts
+**/target/
+**/dist/
+**/build/
+**/*.class
+**/*.jar
+
+# Node dependencies
+**/node_modules/
+.npm/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Local Maven & Tooling caches
+scratch/tools/
+scratch/m2_repo/
+.m2/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System and logs
+*.log
+.DS_Store
+Thumbs.db
